@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Open Diagram</title>
+    <script>
+      fetch('https://raw.githubusercontent.com/turathing/Production-Line-Diagrams/refs/heads/main/CM5')
+        .then(res => res.text())
+        .then(url => { window.location.href = url.trim(); });
+    </script>
+  </head>
+  <body>
+    <p>Opening diagram...</p>
+  </body>
+</html>
